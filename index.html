@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Charity: Water Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="topbar">
+  <img src="img/cw_logo.png" alt="charity: water logo" class="logo" />
+  <nav class="nav">
+    <a href="#impact">Why it matters</a>
+    <a href="#cta" class="nav-cta">Donate</a>
+  </nav>
+</header>
 
     <section class="hero">
         <div class="hero-content">
@@ -15,20 +23,27 @@
                 exactly where your money goes.
             </p>
             <button>Give clean water</button>
+            <img src="img/water-can-transparent.png" alt="Water can icon" class="hero-icon" />
         </div>
     </section>
 
-    <section class="impact">
+ <section class="impact" id="impact">
         <h2>Why It Matters</h2>
         <p>
             771 million people lack access to clean water. Access to safe water
             improves health, education, and economic opportunity.
+            <div class="cards">
+  <div class="card"><h3>Health</h3><p>Safe water reduces waterborne disease.</p></div>
+  <div class="card"><h3>Education</h3><p>Kids spend more time in school.</p></div>
+  <div class="card"><h3>Opportunity</h3><p>Communities gain time back to work and grow.</p></div>
+</div>
+
         </p>
     </section>
 
-    <section class="cta">
+    <section class="cta" id="cta">
         <h2>Be part of the solution.</h2>
-        <button>Donate Today</button>
+        <button>Donate Today </button> 
     </section>
 
 </body>
